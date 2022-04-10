@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,300;1,400&family=Montserrat:wght@400;500;600&family=Sacramento&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  text-align: center;
+}
+header{
+ background-color: #B4ECE3;
+ color: #006778;
+ padding-top: 50px;s
+ position: relative;
+
+}
+.mountain{
+  margin: 75px, auto;
+  margin-right: 50px;
+}
+.cloud{
+  position:absolute;
+}
+.top-cloud{
+  right:200px;
+  bottom:500px;
+}
+.bottom-cloud{
+  left:200px;
+  top:300px;
+}
+hr{
+  border:none;
+  border-top: 8px dotted;
+  width: 5%;
+  margin: 50px auto;
+  color: #B6FFCE;
+
+}
+.hello{
+  width:30%;
+  margin:0 auto;
+  line-height: 1.5;
+}
+
+
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #0093AB;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #333C83;
+
+}
+p{
+
+  color: #062C30;
+}
+.bio{
+  margin-top: 30px;
+  border-radius: 50%;
+}
+.about h2{
+  margin:25px auto;
+}
+.skills{
+  width:40%;
+  margin:80px auto;
+  text-align: left;
+}
+.skills h2{
+  text-align: center;
+}
+.skill-each{
+  margin: 80px auto;
+}
+.skill-each img{
+  width: 30%;
+  border-radius: 50%;
+}
+.computer{
+  float:left;
+  margin-right: 50px;
+}
+.analyst{
+  float: right;
+  margin-left: 50px;
+}
+.skills h3{
+  margin: 30px auto;
+  text-align: left;
+
+}
+.contact{
+  width:70%;
+  margin: 0 auto;
+}
+.contact h3{
+  margin : 20px auto 35px;
+}
+.contact button{
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 20px;
+  border:none;
+  border-radius: 20%;
+  margin-top: 70px;
+  background-color: #008E89;
+  color: white;
+  cursor: pointer;
+}
+.contact button:hover{
+  background-color: #6A5495;
+}
+h1:hover{
+  color: #24A19C;
+}
+p{
+  font-family: 'Merriweather', serif;
+  font-size: 0.8rem;
+  line-height: 2;
+  color: #06113C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  background-color: #61A4BC;
+  margin-top: 50px;
+  padding-top: 30px;
+}
+footer a{
+   font-family: 'Montserrat', sans-serif;
+   margin:0 50px;
+   text-decoration: none;
+   font-size: 1.2 rem;
+   font-weight: 400;
+   cursor: pointer;
+}
+footer p{
+  padding-top: 25px;
+  font-size: 0.8rem;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif
+
+}
+footer a:hover{
+   color: #019267;
+}
